@@ -11,7 +11,7 @@ public class ScannerProvider {
     }
 
     public String readPassword() {
-        System.out.print("Enter password: ");
+        System.out.print("Enter your password: ");
         return scanner.nextLine();
     }
 
