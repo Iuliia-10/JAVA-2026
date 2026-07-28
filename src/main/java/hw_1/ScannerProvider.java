@@ -19,7 +19,7 @@ public class ScannerProvider {
         if (errors.isEmpty()) {
             System.out.println("Password is valid.");
         } else {
-            System.out.println("Password is invalid.");
+            System.out.println("Password is not valid.");
             System.out.println("Validation errors are present:");
             for (String error : errors) {
                 System.out.println(error);
