@@ -18,7 +18,7 @@ public class ScannerProvider {
 
     public void printResult(ArrayList<String> errors) {
         if (errors.isEmpty()) {
-            System.out.println("Password is valid.");
+            System.out.println("Password is valid");
         } else {
             System.out.println("Password is not valid.");
             System.out.println("Validation errors are present:");

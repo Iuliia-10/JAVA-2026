@@ -13,7 +13,7 @@ public class Validations {
         ArrayList<String> errors = new ArrayList<>();
 
         if (password.length() < 8 || password.length() > 32) {
-            errors.add("Password length must be between 8 and 32 characters.");
+            errors.add("Password length must be between 8 and 32 characters");
         }
 
         boolean hasUppercase = false;
@@ -24,7 +24,7 @@ public class Validations {
             }
         }
         if (!hasUppercase) {
-            errors.add("Password must contain at least one uppercase letter.");
+            errors.add("Password must contain at least one uppercase letter");
         }
 
         boolean hasLowercase = false;
