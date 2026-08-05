@@ -20,7 +20,6 @@ public class PasswordValidationNegativeTest extends HelperClass {
     @DataProvider(name = "invalidPasswordProvider")
     public Object[][] getInvalidPasswordsData() {
         return new Object[][] {
-                // { невалидный_пароль, ожидаемый_текст_ошибки }
                 { "Anna1!", "Password length must be between 8 and 32 characters." },
                 { "annabel1!", "Password must contain at least one uppercase letter." },
                 { "ANNABEL1!", "Password must contain at least one lowercase letter." },

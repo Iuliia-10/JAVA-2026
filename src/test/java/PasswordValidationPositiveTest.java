@@ -10,6 +10,6 @@ public class PasswordValidationPositiveTest extends HelperClass {
         String password = players.get(0).getPassword();
         ArrayList<String> errors = validations.validate(password);
 
-        Assert.assertEquals(errors.size(), 0, "Empty list for valid password.");
+        Assert.assertEquals(errors.size(), 0, "Positive test failed.");
     }
 }
